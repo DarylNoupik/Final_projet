@@ -7,7 +7,7 @@ import contract.model.element.mobile.IMobile;
 /**
  * One of the strategy that can be used by monsters.
  * 
- * @author Paul Combadieu
+ * @author D.A.F.Y
  * @version 1.0
  */
 public class FollowWallAntiClockWiseStrategy extends MonsterStrategy {

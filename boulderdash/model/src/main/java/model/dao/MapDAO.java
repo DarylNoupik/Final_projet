@@ -15,7 +15,7 @@ import model.element.mobile.Monster;
 /**
  * <h1>The Class MapDAO.</h1>
  *
- * @author Paul Combaldieu paul.combaldieu@viacesi.fr
+ * @author D.A.F.Y
  * @version 1.0
  */
 public abstract class MapDAO extends AbstractDAO {
@@ -81,7 +81,7 @@ public abstract class MapDAO extends AbstractDAO {
 			throw new Exception("Level is not good >:( x:" + width + " y: " + height + " size: " + mapString.length());
 	}
 
-	private static void placePawnsOnMap(final ResultSet result, final Map tempMap, int width) throws SQLException, IOException {
+	private static void placePawnsOnMap(final ResultSet result,  Map tempMap, int width) throws SQLException, IOException {
 
 		int currentXToWrite = 0;
 		int currentYToWrite = 0;
@@ -94,9 +94,9 @@ public abstract class MapDAO extends AbstractDAO {
 
 				// Now let's check if the element to insert is an IMobile
 				// (boulder, diamond..)
-				if (c == 'O')
+				if (c == 'S')
 					tempMap.addPawn(new Boulder(currentXToWrite, currentYToWrite, tempMap));
-				else if (c == 'V') {
+				else if (c == 'D') {
 					tempMap.addPawn(new Diamond(currentXToWrite, currentYToWrite, tempMap));
 					tempMap.addDiamondCount();
 				} else if (c == 'M') {

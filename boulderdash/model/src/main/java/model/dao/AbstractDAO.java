@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 /**
  * <h1>The Class AbstractDAO.</h1>
  * 
- * @author Paul Combaldieu
+ * @author D.A.F.Y
  * @version 1.0
  *
  */

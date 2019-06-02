@@ -7,8 +7,7 @@ import contract.model.element.mobile.IMobile;
  * A strategy that does nothing. Used when monsters are taken out of the board.
  * 
  * 
- * @author Paul Combaldieu
- * @version 1.0
+ * @author D.A.F.Y
  *
  */
 public class NoStrategy extends MonsterStrategy {

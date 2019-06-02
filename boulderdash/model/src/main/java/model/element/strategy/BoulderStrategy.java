@@ -5,7 +5,7 @@ import contract.model.element.mobile.IMobile;
 
 /**
  * The strategy followed by boulders. Basically the FallingObject strategy.
- * @author paul
+ * @author Group9 D.A.F.Y
  *
  */
 public class BoulderStrategy extends FallingObjectsStrategy {

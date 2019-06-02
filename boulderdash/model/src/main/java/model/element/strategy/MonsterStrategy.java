@@ -8,8 +8,7 @@ import model.element.mobile.Monster;
 /**
  * The base strategy for monsters. If crushed, removed from board, and strategy set to noStrategy.
  * 
- * @author Paul Combaldieu
- * @version 1.0
+ * @author D.A.F.Y
  * 
  *
  */

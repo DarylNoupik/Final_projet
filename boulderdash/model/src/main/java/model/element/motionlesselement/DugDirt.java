@@ -7,7 +7,7 @@ import contract.model.element.Sprite;
 
 /**
  * The DugDirt motionless element if a basic PENETRABLE element.
- * @author paul
+ * @author D.A.F.Y
  *
  */
 public class DugDirt extends MotionlessElement{

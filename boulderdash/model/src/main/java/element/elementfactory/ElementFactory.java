@@ -7,7 +7,7 @@ import model.element.motionlesselement.Wall;
 
 /**
  * Motionless element factory. 
- * @author paul
+ * @author D.A.F.Y
  * 
  * @version 1.0
  */

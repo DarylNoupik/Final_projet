@@ -6,7 +6,7 @@ import element.Element;
 
 /**
  * Abstract representation of a motionless element
- * @author paul
+ * @author D.A.F.Y
  *
  */
 public abstract class MotionlessElement extends Element {

@@ -12,7 +12,7 @@ import contract.model.element.mobile.IMobile;
 
 /**
  * <h1>The Class Map provides a facade of the Model component.</h1>
- * @author Paul Combaldieu
+ * @author D.A.F.Y
  */
 public class Map extends Observable implements IMap {
 

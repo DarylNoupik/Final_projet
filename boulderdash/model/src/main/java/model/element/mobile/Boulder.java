@@ -14,13 +14,12 @@ import model.element.strategy.BoulderStrategy;
 /**
  * <h1>The MyCharacter Class.</h1>
  *
- * @author Paul
- * @version 0.2
+ * @author D.A.F.Y
  */
 public class Boulder extends Mobile {
 
     /** The Constant SPRITE. */
-    private static final Sprite sprite          = new Sprite('O', Sprite.mapTileSet, new Rectangle(48, 0, 16, 16));
+    private static final Sprite sprite          = new Sprite('S', Sprite.mapTileSet, new Rectangle(48, 0, 16, 16));
     
     /** The strategy in use by all boulders */
     private static final IStrategy strategy = new BoulderStrategy();

@@ -9,8 +9,7 @@ import contract.model.element.mobile.IMobile;
 /**
  * The base strategy for a falling object.
  * 
- * @author paul Combaldieu, Maxence Duhoux
- * @version 1.0
+ * @author D.A.F.Y
  * 
  *
  */

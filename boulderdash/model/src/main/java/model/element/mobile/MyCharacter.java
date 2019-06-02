@@ -13,8 +13,7 @@ import contract.model.element.mobile.IMobile;
 /**
  * <h1>The MyCharacter Class.</h1>
  *
- * @author Paul
- * @version 0.2
+ * @author D.A.F.Y
  */
 public class MyCharacter extends Mobile {
 

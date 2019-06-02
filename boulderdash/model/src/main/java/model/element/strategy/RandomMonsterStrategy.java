@@ -8,8 +8,7 @@ import contract.model.element.mobile.IMobile;
  * One of the strategy that can be used by monsters. Moves in random directions,
  * if available.
  * 
- * @author Paul Combaldieu
- * @version
+ * @author D.A.F.Y
  *
  */
 public class RandomMonsterStrategy extends MonsterStrategy {
