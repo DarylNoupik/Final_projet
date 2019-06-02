@@ -5,14 +5,14 @@ import java.awt.Rectangle;
 import java.io.IOException;
 
 import contract.controller.IStrategy;
-import contract.controller.UserOrder;
 import contract.model.IMap;
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
+import entity.Permeability;
+import entity.Sprite;
+import entity.UserOrder;
 import model.element.strategy.BoulderStrategy;
 
 /**
- * <h1>The MyCharacter Class.</h1>
+ * <h1>The Rockford Class.</h1>
  *
  * @author D.A.F.Y
  */

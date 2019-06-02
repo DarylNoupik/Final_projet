@@ -5,10 +5,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Observable;
 
-import contract.model.IElement;
 import contract.model.IMap;
-import contract.model.element.Permeability;
-import contract.model.element.mobile.IMobile;
+import entity.IElement;
+import entity.IMobile;
+import entity.Permeability;
 
 /**
  * <h1>The Class Map provides a facade of the Model component.</h1>
@@ -16,7 +16,10 @@ import contract.model.element.mobile.IMobile;
  */
 public class Map extends Observable implements IMap {
 
-	/** The width */
+	/** The width 
+	 * 
+	 * 
+	 * @see IMap */
   private int width;
   
   /** The height */

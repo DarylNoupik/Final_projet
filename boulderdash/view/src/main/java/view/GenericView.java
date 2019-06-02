@@ -6,9 +6,9 @@ import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 import java.util.ArrayList;
 import contract.controller.IOrderPerformer;
-import contract.controller.UserOrder;
 import contract.model.IMap;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
+import entity.UserOrder;
 import fr.exia.showboard.BoardFrame;
 
 /**
@@ -19,7 +19,7 @@ import fr.exia.showboard.BoardFrame;
  */
 public abstract class GenericView {
 	/** The Constant squareSize. */
-	protected static final int squareSize = Toolkit.getDefaultToolkit().getScreenSize().width / 30;
+	protected static final int squareSize = Toolkit.getDefaultToolkit().getScreenSize().width / 40;
 
 	/** The map. */
 	protected IMap map = null;
@@ -37,7 +37,7 @@ public abstract class GenericView {
 	protected IOrderPerformer orderPerformer = null;
 
 	/** The BoardFrame. */
-	protected final BoardFrame boardFrame = new BoardFrame("BoulderDash");
+	protected final BoardFrame boardFrame = new BoardFrame(" D.A.F.Y Boulder Dash");
 
 	/**
 	 * Key code to user order.
@@ -90,18 +90,18 @@ public abstract class GenericView {
 		int reasonableHeight;
 
 		// First let's find a reasonable width
-		if ((int) (map.getWidth() * 0.75) > 10) {
+		if ((int) (map.getWidth() * 0.75) > 40) {
 			reasonableWidth = 10;
-		} else if ((int) (map.getWidth() * 0.75) < 5) {
+		} else if ((int) (map.getWidth() * 0.75) < 40) {
 			reasonableWidth = map.getWidth();
 		} else {
 			reasonableWidth = (int) (map.getWidth() * 0.75);
 		}
 
 		// Now the same with height
-		if ((int) (map.getHeight() * 0.75) > 10) {
+		if ((int) (map.getHeight() * 0.75) > 40) {
 			reasonableHeight = 10;
-		} else if ((int) (map.getHeight() * 0.75) < 5) {
+		} else if ((int) (map.getHeight() * 0.75) < 40) {
 			reasonableHeight = map.getHeight();
 		} else {
 			reasonableHeight = (int) (map.getHeight() * 0.75);

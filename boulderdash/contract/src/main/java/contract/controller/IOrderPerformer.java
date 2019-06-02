@@ -2,7 +2,7 @@ package contract.controller;
 
 import java.io.IOException;
 
-import contract.controller.UserOrder;
+import entity.UserOrder;
 
 /**
  * <h1>The Interface IController.</h1>

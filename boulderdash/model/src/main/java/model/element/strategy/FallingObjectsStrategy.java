@@ -1,10 +1,10 @@
 package model.element.strategy;
 
 import contract.controller.IStrategy;
-import contract.controller.UserOrder;
 import contract.model.IMap;
-import contract.model.element.Permeability;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
+import entity.Permeability;
+import entity.UserOrder;
 
 /**
  * The base strategy for a falling object.

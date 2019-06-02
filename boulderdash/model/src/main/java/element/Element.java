@@ -2,18 +2,18 @@ package element;
 
 import java.awt.Image;
 
-import contract.model.IElement;
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
+import entity.IElement;
+import entity.Permeability;
+import entity.Sprite;
 
 /**
  * An element is an object that can be used on an IBoard
- * @author Paul Combaldieu
+ * @author D.A.F.Y
  *
  */
 public abstract class Element implements IElement {
 
-	/** The sprite. */
+	/** The sprite.*/
 	private Sprite sprite;
 
 	/** The permeability. */

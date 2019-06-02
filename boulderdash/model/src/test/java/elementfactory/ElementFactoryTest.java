@@ -46,7 +46,7 @@ public class ElementFactoryTest {
   @Test
   public void testCreateFilledDirt() {
     assertNotNull(ElementFactory.createFilledDirt());
-    assertEquals(ElementFactory.createFilledDirt().getSprite().getConsoleImage(), '.');
+    assertEquals(ElementFactory.createFilledDirt().getSprite().getConsoleImage(), 'G');
   }
   
   /**
@@ -57,7 +57,7 @@ public class ElementFactoryTest {
   @Test
   public void testCreateWall() {
     assertNotNull(ElementFactory.createWall());
-    assertEquals(ElementFactory.createWall().getSprite().getConsoleImage(), '#');
+    assertEquals(ElementFactory.createWall().getSprite().getConsoleImage(), 'W');
   }
 
 }

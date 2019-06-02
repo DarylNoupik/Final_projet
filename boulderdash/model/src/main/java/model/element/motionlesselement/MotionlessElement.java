@@ -1,8 +1,8 @@
 package model.element.motionlesselement;
 
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
 import element.Element;
+import entity.Permeability;
+import entity.Sprite;
 
 /**
  * Abstract representation of a motionless element

@@ -26,7 +26,8 @@
 		<module>model</module>
 		<module>view</module>
 		<module>main</module>
-		
+
+		<module>entity</module>
 	</modules>
 	<reporting>
 		<plugins>

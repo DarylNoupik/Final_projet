@@ -9,9 +9,9 @@ import javax.swing.JOptionPane;
 
 import contract.controller.IBoulderDashController;
 import contract.model.IModel;
-import controller.ControllerFacade;
-import model.ModelFacade;
-import view.ViewFacade;
+import controller.Controller;
+import model.Model;
+import view.View;
 
 /**
  * <h1>The Class Main.</h1>
@@ -33,9 +33,9 @@ public abstract class Main {
     	String idToAsk= JOptionPane.showInputDialog("Hello ! We are the group 9 ! Please input the level number of the map : ", 1);
         int idAsked = Integer.parseInt(idToAsk);
         
-    	final IModel model = new ModelFacade(idAsked);
-    	final ViewFacade view = new ViewFacade(model.getMap(), model.getMyCharacter(), model.getMap().getPawns());
-        final IBoulderDashController controller = new ControllerFacade(view, model);
+    	final IModel model = new Model(idAsked);
+    	final View view = new View(model.getMap(), model.getMyCharacter(), model.getMap().getPawns());
+        final IBoulderDashController controller = new Controller(view, model);
         view.setOrderPerformer(controller.getOrderPeformer());
 
         try {

@@ -1,7 +1,6 @@
 package contract.model;
 
-import contract.model.IMap;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
 
 /**
  * <h1>The Interface IModel.</h1>

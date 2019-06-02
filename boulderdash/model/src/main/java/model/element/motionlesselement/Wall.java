@@ -2,8 +2,8 @@ package model.element.motionlesselement;
 
 import java.awt.Rectangle;
 
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
+import entity.Permeability;
+import entity.Sprite;
 
 /**
  * The Wall is a basic BLOCKING motionless element.

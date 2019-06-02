@@ -3,19 +3,19 @@ import java.io.IOException;
 
 import contract.controller.IBoulderDashController;
 import contract.controller.IOrderPerformer;
-import contract.controller.UserOrder;
 import contract.model.IModel;
 import contract.view.IView;
+import entity.UserOrder;
 
 /**
- * <h1>The Class ControllerFacade provides the code of the Controller
+ * <h1>The Class Controller provides the code of the Controller
  * component.</h1>
  * 
  * 
  * @author GROUP 9 DAFY
  * @version 1.0
  */
-public class ControllerFacade implements IOrderPerformer, IBoulderDashController {
+public class Controller implements IOrderPerformer, IBoulderDashController {
 
   /** The view. */
   private final IView view;
@@ -37,7 +37,7 @@ public class ControllerFacade implements IOrderPerformer, IBoulderDashController
    * @param model
    *          the model
    */
-  public ControllerFacade(final IView view, final IModel model) {
+  public Controller(final IView view, final IModel model) {
     super();
     this.view = view;
     this.model = model;

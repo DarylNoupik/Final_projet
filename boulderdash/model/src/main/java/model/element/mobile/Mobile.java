@@ -3,13 +3,13 @@ package model.element.mobile;
 import java.awt.Point;
 import java.io.IOException;
 
-import contract.controller.UserOrder;
 import contract.model.IMap;
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
-import contract.model.element.mobile.IMobile;
 import element.Element;
 import element.elementfactory.ElementFactory;
+import entity.IMobile;
+import entity.Permeability;
+import entity.Sprite;
+import entity.UserOrder;
 import fr.exia.showboard.IBoard;
 
 /**
@@ -67,13 +67,6 @@ abstract class Mobile extends Element implements IMobile {
 	 */
 	Mobile(final int x, final int y, final Sprite sprite, final IMap map, final Permeability permeability) {
 		this(sprite, map, permeability);
-		// Following code will not work: if (0, y) or (x, 0) is BLOCKING,
-		// The game will end instanty. We have to set the initial position
-		// without
-		// Checking for collisions
-		// this.setX(x);
-		// this.setY(y);
-
 		this.getPosition().x = x;
 		this.getPosition().y = y;
 	}

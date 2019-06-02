@@ -2,11 +2,11 @@ package model.element.motionlesselement;
 
 import java.awt.Rectangle;
 
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
+import entity.Permeability;
+import entity.Sprite;
 
 /**
- * The DugDirt motionless element if a basic PENETRABLE element.
+ * The DugDirt motionless element if a basic PENETRABLE element which rockford dig.
  * @author D.A.F.Y
  *
  */

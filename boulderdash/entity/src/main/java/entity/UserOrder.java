@@ -1,4 +1,4 @@
-package contract.controller;
+package entity;
 
 import java.util.Random;
 

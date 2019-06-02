@@ -6,24 +6,24 @@ import java.util.ArrayList;
 
 import contract.model.IMap;
 import contract.model.IModel;
-import contract.model.element.Sprite;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
+import entity.Sprite;
 import model.dao.MapDAO;
-import model.element.mobile.MyCharacter;
+import model.element.mobile.Rockford;
 
 /**
- * <h1>The Class ModelFacade provides a facade of the Model component.</h1>
+ * <h1>The Class Model provides a facade of the Model component.</h1>
  * 
  * @author Paul Combaldieu
  * @version 1.0
  */
-public class ModelFacade implements IModel {
+public class Model implements IModel {
 
 	/** The map. */
 	private IMap map;
 
 	/** The player's character. */
-	private MyCharacter myCharacter;
+	private Rockford rockford;
 
 	/**
 	 * Instantiates a new model facade.
@@ -31,11 +31,11 @@ public class ModelFacade implements IModel {
 	 * @throws SQLException
 	 * @throws IOException
 	 */
-	public ModelFacade(final int mapID) throws SQLException, IOException {
+	public Model(final int mapID) throws SQLException, IOException {
 		super();
 		Sprite.loadBuffers();
 		this.setMap(MapDAO.getMapById(mapID));
-		this.setMyCharacter(new MyCharacter(1, 1, this.getMap()));
+		this.setMyCharacter(new Rockford(1, 1, this.getMap()));
 	}
 
 	/*
@@ -52,8 +52,8 @@ public class ModelFacade implements IModel {
 		this.map = newMap;
 	}
 
-	private void setMyCharacter(final MyCharacter newChara) {
-		this.myCharacter = newChara;
+	private void setMyCharacter(final Rockford newChara) {
+		this.rockford = newChara;
 	}
 
 	/**
@@ -72,7 +72,7 @@ public class ModelFacade implements IModel {
 	}
 
 	@Override
-	public MyCharacter getMyCharacter() {
-		return this.myCharacter;
+	public Rockford getMyCharacter() {
+		return this.rockford;
 	}
 }

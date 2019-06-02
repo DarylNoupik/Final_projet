@@ -1,7 +1,7 @@
 package model.element.strategy;
 
 import contract.model.IMap;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
 /**
  * The strategy used by diamonds. The same as FallingObject strategy, but can be removed when on player's location.
  * @author D.A.F.Y

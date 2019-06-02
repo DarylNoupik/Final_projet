@@ -1,8 +1,8 @@
 package model.element.strategy;
 
-import contract.controller.UserOrder;
 import contract.model.IMap;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
+import entity.UserOrder;
 
 /**
  * One of the strategy that can be used by monsters.

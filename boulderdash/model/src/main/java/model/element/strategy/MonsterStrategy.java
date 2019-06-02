@@ -2,7 +2,7 @@ package model.element.strategy;
 
 import contract.controller.IStrategy;
 import contract.model.IMap;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
 import model.element.mobile.Monster;
 
 /**

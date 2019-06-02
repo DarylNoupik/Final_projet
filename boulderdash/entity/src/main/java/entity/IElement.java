@@ -1,9 +1,7 @@
-package contract.model;
+package entity;
 
 import java.awt.Image;
 
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
 import fr.exia.showboard.ISquare;
 
 /**

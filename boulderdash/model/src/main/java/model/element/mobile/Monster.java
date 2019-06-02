@@ -4,23 +4,23 @@ import java.awt.Rectangle;
 import java.io.IOException;
 
 import contract.controller.IStrategy;
-import contract.controller.UserOrder;
 import contract.model.IMap;
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
+import entity.Permeability;
+import entity.Sprite;
+import entity.UserOrder;
 import model.element.strategy.FollowWallAntiClockWiseStrategy;
 import model.element.strategy.FollowWallClockWiseStrategy;
 import model.element.strategy.NoStrategy;
 import model.element.strategy.RandomMonsterStrategy;
 
 /**
- * <h1>The MyCharacter Class.</h1>
+ * <h1>The monster  Class.</h1>
  *
  * @author D.A.F.Y
  */
 public class Monster extends Mobile {
 
-	/** The static Constant SPRITE. */
+	/** The static Constant SPRITE.  */
 	private static final Sprite sprite = new Sprite('M', Sprite.mapTileSet, new Rectangle(144, 16, 16, 16));
 	
 	/** The static constant randomStrategy */

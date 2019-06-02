@@ -8,4 +8,11 @@
 	</parent>
 	<artifactId>contract</artifactId>
 	<name>boulderdash.contract</name>
+	<dependencies>
+		<dependency>
+			<groupId>fr.exia</groupId>
+			<artifactId>entity</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>

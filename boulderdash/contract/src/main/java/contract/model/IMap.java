@@ -3,8 +3,9 @@ package contract.model;
 import java.util.ArrayList;
 import java.util.Observable;
 
-import contract.model.element.Permeability;
-import contract.model.element.mobile.IMobile;
+import entity.IElement;
+import entity.IMobile;
+import entity.Permeability;
 
 /**
  * The map interface.

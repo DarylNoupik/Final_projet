@@ -6,13 +6,13 @@ import java.io.IOException;
 
 import contract.controller.IStrategy;
 import contract.model.IMap;
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
+import entity.Permeability;
+import entity.Sprite;
 //import model.element.strategy.StoneStrategy;
 import model.element.strategy.DiamondStrategy;
 
 /**
- * <h1>The MyCharacter Class.</h1>
+ * <h1>The Rockford Class.</h1>
  *
  * @author D.A.F.Y
  * @version 0.2
@@ -41,61 +41,35 @@ public class Diamond extends Mobile {
 		sprite.loadImage();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see fr.exia.insanevehicles.model.element.mobile.Mobile#moveLeft()
-	 */
 	@Override
 	public final void moveLeft() {
 		super.moveLeft();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see fr.exia.insanevehicles.model.element.mobile.Mobile#moveRight()
-	 */
+	
 	@Override
 	public final void moveRight() {
 		super.moveRight();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see fr.exia.insanevehicles.model.element.mobile.Mobile#moveRight()
-	 */
+	
 	@Override
 	public final void moveUp() {
 		// Nop
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see fr.exia.insanevehicles.model.element.mobile.Mobile#moveRight()
-	 */
+	
 	@Override
 	public final void moveDown() {
 		super.moveDown();
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see fr.exia.insanevehicles.model.element.mobile.Mobile#die()
-	 */
+	
 	@Override
 	protected final void die() {
 		// Nop
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see fr.exia.insanevehicles.model.element.mobile.Mobile#doNothing()
-	 */
 	@Override
 	public final void doNothing() {
 		super.doNothing();

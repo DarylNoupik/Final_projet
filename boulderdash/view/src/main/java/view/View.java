@@ -11,23 +11,23 @@ import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
 import contract.model.IMap;
-import contract.model.element.mobile.IMobile;
 import contract.view.IView;
+import entity.IMobile;
 
 /**
- * <h1>The Class ViewFacade provides a facade of the View component.</h1>
+ * <h1>The Class View provides a facade of the View component.</h1>
  *
  * @author GROUP 9 DAFY
  * @version 1.0
  */
-public class ViewFacade extends GenericView implements IView, Runnable, KeyListener {
+public class View extends GenericView implements IView, Runnable, KeyListener {
 	/**
 	 * Instantiates a new view facade.
 	 * 
 	 * @throws IOException
 	 *             reject exceptions
 	 */
-	public ViewFacade(final IMap map, final IMobile character, final ArrayList<IMobile> pawns) throws IOException {
+	public View(final IMap map, final IMobile character, final ArrayList<IMobile> pawns) throws IOException {
 		super();
 		this.setMap(map);
 		this.setMyCharacter(character);

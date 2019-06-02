@@ -4,18 +4,18 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import java.io.IOException;
 
-import contract.controller.UserOrder;
 import contract.model.IMap;
-import contract.model.element.Permeability;
-import contract.model.element.Sprite;
-import contract.model.element.mobile.IMobile;
+import entity.IMobile;
+import entity.Permeability;
+import entity.Sprite;
+import entity.UserOrder;
 
 /**
- * <h1>The MyCharacter Class.</h1>
+ * <h1>The hero Rockford Class.</h1>
  *
  * @author D.A.F.Y
  */
-public class MyCharacter extends Mobile {
+public class Rockford extends Mobile {
 
 	/** The Constant SPRITE. */
 	private static final Sprite sprite = new Sprite('H', Sprite.characterTileSet, new Rectangle(16, 0, 16, 16));
@@ -50,7 +50,7 @@ public class MyCharacter extends Mobile {
 	 * @throws IOException
 	 *             Signals that an I/O exception has occurred.
 	 */
-	public MyCharacter(final int x, final int y, final IMap map) throws IOException {
+	public Rockford(final int x, final int y, final IMap map) throws IOException {
 		super(x, y, sprite, map, Permeability.BLOCKING);
 		spriteTurnLeft.loadImage();
 		spriteTurnRight.loadImage();
