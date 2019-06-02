@@ -5,7 +5,7 @@ import contract.model.element.mobile.IMobile;
 
 /**
  * The IStrategy interface.
- * @author Paul Combaldieu
+ * @author GROUP 9 DASH
  *
  */
 public interface IStrategy {

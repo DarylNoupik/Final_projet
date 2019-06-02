@@ -8,7 +8,7 @@ import fr.exia.showboard.ISquare;
 
 /**
  * The interface that represents elements on the board.
- * @author Paul Combaldieu 
+ * @author GROUP 9 DASH
  *
  */
 public interface IElement extends ISquare {

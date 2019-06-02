@@ -11,7 +11,7 @@ import javax.imageio.ImageIO;
 /**
  * <h1>The Sprite Class.</h1>
  * 
- * @author Tejesh Tailor
+ * @author GROUP 9 DASH
  * @version 0.1
  */
 public class Sprite {

@@ -9,7 +9,7 @@ import fr.exia.showboard.IPawn;
 /**
  * <h1>The Interface IMobile.</h1>
  *
- * @author Paul
+ * @author GROUP 9 DASH
  * @version 0.1
  * @see IPawn
  * @see IElement

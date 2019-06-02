@@ -4,7 +4,7 @@ package contract.controller;
  * <h1>The Interface IIinsaneVehiclesController.</h1>
  *
  * @see IOrderPerformer
- * @author Tejesh Tailor
+ * @author GROUP 9 DASH
  *
  */
 public interface IBoulderDashController {

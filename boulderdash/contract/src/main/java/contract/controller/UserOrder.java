@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * <h1>The Enum UserOrder.</h1>
  * 
- * @author Tejesh Tailor
+ * @author GROUP 9 DASH
  * @version 0.1
  */
 public enum UserOrder {

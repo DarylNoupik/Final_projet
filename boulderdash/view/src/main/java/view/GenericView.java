@@ -14,12 +14,12 @@ import fr.exia.showboard.BoardFrame;
 /**
  * The Class GenericView.</h1>
  * 
- * @author Tejesh Tailor
+ * @author GROUP 9 DAFY
  * @version 1.0
  */
 public abstract class GenericView {
 	/** The Constant squareSize. */
-	protected static final int squareSize = Toolkit.getDefaultToolkit().getScreenSize().width / 20;
+	protected static final int squareSize = Toolkit.getDefaultToolkit().getScreenSize().width / 30;
 
 	/** The map. */
 	protected IMap map = null;

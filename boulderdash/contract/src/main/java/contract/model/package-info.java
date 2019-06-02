@@ -1,6 +1,6 @@
 /**
  * Provides all contracts for the model component.
  * 
- * @author Tejesh Tailor
+ * @authorGROUP 9 DASH
  */
 package contract.model;

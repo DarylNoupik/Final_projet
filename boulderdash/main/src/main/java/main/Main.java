@@ -1,6 +1,7 @@
 package main;
 
 import java.io.IOException;
+
 import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
@@ -13,7 +14,7 @@ import view.ViewFacade;
 
 /**
  * <h1>The Class Main.</h1>
- * @author Tejesh Tailor
+ * @author GROUP 9 DAFY 
  *
  */
 public abstract class Main {
@@ -28,7 +29,7 @@ public abstract class Main {
      */
     public static void main(final String[] args) throws SQLException, IOException {
     	
-    	String idToAsk= JOptionPane.showInputDialog("Hello ! Please input id of the map : ", 1);
+    	String idToAsk= JOptionPane.showInputDialog("Hello ! We are the group 9 ! Please input the level number of the map : ", 1);
         int idAsked = Integer.parseInt(idToAsk);
         
     	final IModel model = new ModelFacade(idAsked);

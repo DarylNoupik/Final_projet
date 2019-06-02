@@ -1,6 +1,6 @@
 /**
  * Provides all classes for the model component.
- * @author paul
+ * @author GROUP 9 DASH
  *
  */
 package contract.model.element;

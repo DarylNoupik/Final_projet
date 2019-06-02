@@ -5,7 +5,7 @@ import contract.model.element.mobile.IMobile;
 
 /**
  * <h1>The Interface IModel.</h1>
- * @author Tejesh Tailor
+ * @author GROUP 9 DASH
  *
  */
 public interface IModel {

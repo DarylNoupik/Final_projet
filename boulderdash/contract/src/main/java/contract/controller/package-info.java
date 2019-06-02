@@ -1,6 +1,6 @@
 /**
  * Provides all contracts for the controller component.
- * @author Tejesh Tailor
+ * @author GROUP 9 DASH
  * 
  */
 package contract.controller;

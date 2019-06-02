@@ -17,7 +17,7 @@ import contract.view.IView;
 /**
  * <h1>The Class ViewFacade provides a facade of the View component.</h1>
  *
- * @author Maxence Duhoux
+ * @author GROUP 9 DAFY
  * @version 1.0
  */
 public class ViewFacade extends GenericView implements IView, Runnable, KeyListener {

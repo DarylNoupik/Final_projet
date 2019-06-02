@@ -8,7 +8,7 @@ import contract.model.element.mobile.IMobile;
 
 /**
  * The map interface.
- * @author Paul Combaldieu
+ * @author GROUP 9 DASH
  */
 public interface IMap {
   

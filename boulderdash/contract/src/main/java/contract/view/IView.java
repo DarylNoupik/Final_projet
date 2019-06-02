@@ -3,7 +3,7 @@ package contract.view;
 /**
  * <h1>The Interface IView.</h1>
  * 
- * @author Tejesh Tailor
+ * @author GROUP 9 DASH
  * @version 1.0
  * 
  */
