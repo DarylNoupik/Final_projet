@@ -7,6 +7,7 @@ import entity.Permeability;
 import entity.Sprite;
 
 /**
+ * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
  * An element is an object that can be used on an IBoard
  * @author D.A.F.Y
  *

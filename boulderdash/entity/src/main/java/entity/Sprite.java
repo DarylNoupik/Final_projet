@@ -12,7 +12,7 @@ import javax.imageio.ImageIO;
  * <h1>The Sprite Class.</h1>
  * 
  * @author GROUP 9 DASH
- * @version 0.1
+ * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
  */
 public class Sprite {
 

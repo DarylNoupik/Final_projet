@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 /**
  * <h1>The Class BoulderDashBDDConnector.</h1>
- * 
+ * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
  * @author GROUP 9 DAFY
  * @version 1.0
  */

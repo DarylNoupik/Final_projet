@@ -14,6 +14,6 @@ public class NoStrategy extends MonsterStrategy {
 
 	@Override
 	public void followStrategy(IMobile currentPawn, IMap map) {
-		// Nop
+		
 	}
 }

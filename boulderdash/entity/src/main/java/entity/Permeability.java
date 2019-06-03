@@ -3,8 +3,8 @@ package entity;
 /**
  * <h1>The Permeability Enum.</h1>
  * 
- * @author GROUP 9 DASH
- * @version 0.1
+ * @author GROUP 9 Feya
+ * 
  */
 public enum Permeability {
 

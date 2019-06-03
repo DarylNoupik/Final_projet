@@ -11,7 +11,7 @@ public class DiamondStrategy extends FallingObjectsStrategy {
 
 	@Override
 	public void followStrategy(IMobile currentPawn, IMap map) {
-		// if the currentPawn is above the player
+		/** if the currentPawn is above the player*/
 		if ((currentPawn.getPosition().y == map.getMyCharacter().getPosition().y - 1
 				&& currentPawn.getPosition().x == map.getMyCharacter().getPosition().x)
 				|| currentPawn.getPosition().equals(map.getMyCharacter().getPosition())) {

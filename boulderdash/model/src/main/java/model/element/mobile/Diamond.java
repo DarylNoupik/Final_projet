@@ -13,9 +13,9 @@ import model.element.strategy.DiamondStrategy;
 
 /**
  * <h1>The Rockford Class.</h1>
- *
+ *<img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
  * @author D.A.F.Y
- * @version 0.2
+ *
  */
 public class Diamond extends Mobile {
 

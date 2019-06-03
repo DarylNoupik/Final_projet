@@ -5,8 +5,9 @@ import java.util.Random;
 /**
  * <h1>The Enum UserOrder.</h1>
  * 
+ * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
  * @author GROUP 9 DASH
- * @version 0.1
+ *
  */
 public enum UserOrder {
 

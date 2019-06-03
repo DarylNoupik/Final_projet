@@ -16,7 +16,7 @@ import model.element.mobile.Monster;
  * <h1>The Class MapDAO.</h1>
  *
  * @author D.A.F.Y
- * @version 1.0
+ *
  */
 public abstract class MapDAO extends AbstractDAO {
 

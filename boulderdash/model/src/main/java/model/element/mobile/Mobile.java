@@ -1,6 +1,7 @@
 package model.element.mobile;
 
 import java.awt.Point;
+
 import java.io.IOException;
 
 import contract.model.IMap;
@@ -169,13 +170,13 @@ abstract class Mobile extends Element implements IMobile {
 	}
 
 	/**
-	 * @return Whether the mobile is crushed by a boulder of in a blocking
+	 * @return Whether the mobile is crushed by a stone of in a blocking
 	 *         entity.
 	 */
 	@Override
 	public Boolean isCrushed() {
 		for (IMobile pawn : this.getMap().getPawns()) {
-			if (pawn.getSprite().getConsoleImage() == 'O' || pawn.getSprite().getConsoleImage() == 'V') {
+			if (pawn.getSprite().getConsoleImage() == 'S' || pawn.getSprite().getConsoleImage() == 'D') {
 				if (pawn.getPosition().x == this.getPosition().x
 						&& pawn.getPosition().y == this.getPosition().y - 1 && pawn.isFalling()) {
 					return true;

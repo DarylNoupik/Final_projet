@@ -59,6 +59,7 @@ public abstract class ElementFactory {
     }
 
     /**
+     * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
      * Gets the good MotionlessElement from file symbol.
      *
      * @param fileSymbol

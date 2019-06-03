@@ -12,9 +12,10 @@ import model.dao.MapDAO;
 import model.element.mobile.Rockford;
 
 /**
- * <h1>The Class Model provides a facade of the Model component.</h1>
- * 
- * @author Paul Combaldieu
+ * <h1>The Class Model .</h1>
+ * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
+ *
+ * @author D.A.F.Y
  * @version 1.0
  */
 public class Model implements IModel {

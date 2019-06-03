@@ -15,6 +15,7 @@ import view.View;
 
 /**
  * <h1>The Class Main.</h1>
+ * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
  * @author GROUP 9 DAFY 
  *
  */

@@ -18,7 +18,7 @@ public class FollowWallClockWiseStrategy extends MonsterStrategy {
 		{
 			return;
 		}
-		// first check until a wall is touched
+		/** first check until a wall is touched*/
 		if (currentPawn.getLastWallTouched() == UserOrder.NOP) {
 
 			if (currentPawn.canMoveTo(UserOrder.LEFT)) {

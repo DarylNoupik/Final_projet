@@ -1,4 +1,4 @@
-package view;
+ package view;
 
 import java.awt.Dimension;
 import java.awt.event.KeyEvent;
@@ -18,7 +18,7 @@ import entity.IMobile;
  * <h1>The Class View provides a facade of the View component.</h1>
  *
  * @author GROUP 9 DAFY
- * @version 1.0
+ * 
  */
 public class View extends GenericView implements IView, Runnable, KeyListener {
 	/**
@@ -70,12 +70,12 @@ public class View extends GenericView implements IView, Runnable, KeyListener {
 
 	@Override
 	public void keyReleased(final KeyEvent keyEvent) {
-		// Nop
+		
 	}
 
 	@Override
 	public void keyTyped(final KeyEvent keyEvent) {
-		// Nop
+		
 	}
 
 	@Override

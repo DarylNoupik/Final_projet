@@ -39,7 +39,7 @@ public class ElementTest {
   }
 
   /**
-   * This test verifie that method testGetsprite does not return a null result.
+   * This test verifie that method testGetsprite does not return a null result. 
    */
   @Test
   public void testGetSprite() {

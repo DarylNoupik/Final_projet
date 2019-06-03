@@ -1,6 +1,7 @@
 package model.element.mobile;
 
 import java.awt.Rectangle;
+
 import java.io.IOException;
 
 import contract.controller.IStrategy;

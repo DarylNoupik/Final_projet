@@ -11,6 +11,7 @@ import entity.IMobile;
 import entity.Permeability;
 
 /**
+ * <img src= "  C:\Users\daryl\Downloads\dafy.png " alt="Flowers in Chania">
  * <h1>The Class Map provides a facade of the Model component.</h1>
  * @author D.A.F.Y
  */

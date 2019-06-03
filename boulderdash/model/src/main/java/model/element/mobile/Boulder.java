@@ -1,6 +1,7 @@
 package model.element.mobile;
 
 import java.awt.Point;
+
 import java.awt.Rectangle;
 import java.io.IOException;
 
@@ -81,7 +82,7 @@ public class Boulder extends Mobile {
 	}
 	
 	/**
-	 * Checks if the boulder can move to the given direction.
+	 * Checks if the stone can move to the given direction.
 	 * Note that this takes account of all pawns including the player.
 	 */
 	@Override
