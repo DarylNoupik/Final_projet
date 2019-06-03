@@ -1,7 +1,7 @@
 package contract.controller;
 
 /**
- * <h1>The Interface IIinsaneVehiclesController.</h1>
+ * <h1>The Interface .</h1>
  *
  * @see IOrderPerformer
  * @author GROUP 9 DASH

@@ -6,7 +6,7 @@ import entity.UserOrder;
 
 /**
  * <h1>The Interface IController.</h1>
- * @authorGROUP 9 DASH
+ * @author GROUP 9 DASH
  *
  */
 

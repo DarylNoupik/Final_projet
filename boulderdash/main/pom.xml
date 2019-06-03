@@ -65,6 +65,7 @@
           <excludePackageNames>fr.exia.showboard.*:java.*:javax.*:org.*</excludePackageNames>
         </configuration>
       </plugin>
+      
     </plugins>
   </build>
 </project>
