@@ -1,10 +1,14 @@
 package main;
 
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 
 
 import java.sql.SQLException;
 
+import javax.imageio.ImageIO;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 import contract.controller.IBoulderDashController;
@@ -31,8 +35,11 @@ public abstract class Main {
      */
     public static void main(final String[] args) throws SQLException, IOException {
     	
-    	String idToAsk= JOptionPane.showInputDialog("Hello ! We are the group 9 ! Please input the level number of the map : ", 1);
-        int idAsked = Integer.parseInt(idToAsk);
+    	BufferedImage myPicture = ImageIO.read(new File("C:/Users/daryl/Downloads/dafy.png"));
+    	ImageIcon image = new ImageIcon(myPicture);
+    	String idToAsk= "1"; JOptionPane.showInputDialog(null,"Hello ! We are the group 9 ! Please input your name  : ", "Boulder Dash", 1,image,null,null);
+        idToAsk = JOptionPane.showInputDialog("Please input the level (1-6)");
+    	int idAsked = Integer.parseInt(idToAsk);
         
     	final IModel model = new Model(idAsked);
     	final View view = new View(model.getMap(), model.getMyCharacter(), model.getMap().getPawns());

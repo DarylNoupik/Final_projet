@@ -1,6 +1,7 @@
  package view;
 
 import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
@@ -70,7 +71,7 @@ public class View extends GenericView implements IView, Runnable, KeyListener {
 
 	@Override
 	public void keyReleased(final KeyEvent keyEvent) {
-		
+		// Nop
 	}
 
 	@Override
@@ -84,6 +85,7 @@ public class View extends GenericView implements IView, Runnable, KeyListener {
 		boardFrame.setDisplayFrame(this.closeView);
 		boardFrame.setSize(this.closeView.width * squareSize, this.closeView.height * squareSize);
 		boardFrame.addKeyListener(this);
+		boardFrame.setIconImage(Toolkit.getDefaultToolkit().getImage("C:/Users/daryl/Downloads/dafy.png"));
 		boardFrame.setFocusable(true);
 		boardFrame.setFocusTraversalKeysEnabled(false);
 		

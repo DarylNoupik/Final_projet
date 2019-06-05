@@ -82,7 +82,7 @@ public class Controller implements IOrderPerformer, IBoulderDashController {
       this.getView().updateBoardFrame();
 
       if (this.getModel().getMap().getDiamondCount() == 0) {
-        this.getView().displayMessage("You won !! Congratulations ;) ");
+        this.getView().displayMessage("You won !! Congratulations your Score is : 100Bitcoins;) " );
         System.exit(0);
       }
     }
